@@ -1,0 +1,17 @@
+$ git init
+$ git remote add origin https://github.com/leandrodaherfdv/googleglass.git
+$ git status
+$ git status
+$ git add .
+$ git status
+$ git commit -m "Primeiro commit"
+
+
+$ git config --global user.email "leandro.daher.fdv@gmail.com"
+
+$ git config --global user.name "leandrodaherfdv"
+
+
+$ git commit -m "Primeiro commit"
+
+$ git push origin master

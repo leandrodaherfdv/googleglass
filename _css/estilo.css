@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+]/*aqui coloca o estilo em todas as tags p*/
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
