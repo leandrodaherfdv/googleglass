@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*aqui coloca o estilo em todas as tags p*/
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+body {
+	background-color: rgb(240,240,240);
+}
+
+figure.foto-legenda {
+	border: 8px solid red;
+	box-shadow: 1px 1px 4px;
+}
+
+figure.foto-legenda img {
+	border: 3px solid green;
+	width: 100%;
+	height: 100%;
+}
