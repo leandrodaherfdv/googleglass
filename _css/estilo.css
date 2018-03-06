@@ -7,7 +7,7 @@ p {
 }
 
 body {
-	background-color: rgba(240,240,240, 0.5);
+	background-color: #dddddd;
 }
 
 figure.foto-legenda {
@@ -36,4 +36,52 @@ figure.foto-legenda figcaption {
 
 figure.foto-legenda:hover figcaption {
 	opacity: 1;
+}
+ /* MENU ****************************************************************************** */
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu ul {
+	list-style: none; /* remove oas marcações (bolinhas) anets de cada item de lista */
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 500px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s; /* tempo transisão pro hover e vice versa */
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none; /* tira sublinhados e etc */
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+}
+
+img#icone {
+	position: absolute;
+	top: 100px;
+	left: 900px;
+}
+/* ****************************************************************************** */
+
+div#interface {
+	width: 1000px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto; /* auto na esquerda e direita centraliza a div */
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
 }
