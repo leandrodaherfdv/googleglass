@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200');
+
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
 /*aqui coloca o estilo em todas as tags p*/
 p {
 	text-align: justify;
@@ -73,8 +80,31 @@ nav#menu a:hover {
 
 img#icone {
 	position: absolute;
-	top: 100px;
+	top: 110px;
 	left: 900px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 170px;
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+}
+
+header#cabecalho h1{
+	font-family: FonteLogo, sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+header#cabecalho h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15pt;
+	color: #888888;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 /* ****************************************************************************** */
 
@@ -84,4 +114,24 @@ div#interface {
 	margin: -20px auto 0px auto; /* auto na esquerda e direita centraliza a div */
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	padding: 10px;
+}
+
+section#corpo {
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+aside#lateral{
+	display: block;
+	width: 370px;
+	float: right;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	text-align: center;
 }
